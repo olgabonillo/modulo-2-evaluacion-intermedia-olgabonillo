@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evaluación intermedia 2</title>
+    <link rel="style" href="./style.css" >
 </head>
 <body>
-    <div>
+        <header>
         <h1>Adivina el número</h1>
-        <form class="form js-form">
-            <label for="num">Introduce aquí tu número</label>
-            <br><input class="number" type="number" name="num" min="0" max="100" required>
-            <br><button class="button js-submit" type="button">Prueba</button>
-            <br><input class="js-input-pista" type="number" name="num" required placeholder="Pista: Escribe el número y dale a Prueba">
-            <br><input class="js-input-intento" type="number" name="num" required placeholder="Número de intentos: 0">
-            <div class="result" ></div>
+    </header>
+    <main>
+        <div>
+        <form action="" class="form">
+            <label for="numberUser">Introduce aquí tu número</label>
+            <input class="js-number" type="number" id="numberUser"/>
+            <input class="submit js-submit" type="submit" value="Prueba" />
         </form>
+        <p class="js-clue" >Pista: Escribe el número y dale a Prueba</p>
+        <p class="js-counter" >Número de intentos: 0</p>
     </div>
-    <script src="main.js" ></script>
+</main>
+    <script src="./js.main.js" type="javascript" ></script>
 </body>
 </html>

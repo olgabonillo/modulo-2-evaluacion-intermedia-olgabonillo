@@ -1,8 +1,7 @@
 .button {
-    background-color: aquamarine;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    border-radius: 10px;
     cursor: pointer;
-    margin: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
 }

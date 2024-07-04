@@ -22,7 +22,7 @@ console.log("Número aleatorio: ", randomNumber);
 function handleClick(ev) {
     ev.preventDefault();
 
-function updateClueMessage() {
+
     const userNumber = parseInt(numberInput.value);
     
     if (!userNumber) {
@@ -36,7 +36,6 @@ function updateClueMessage() {
     } else if (userNumber > 100 || userNumber <1){
         clueMessage.innerHTML = "Introduce un número válido";
     }
-}
     //Actualizar número de intentos
 
     attemps = attemps + 1;
